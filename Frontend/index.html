@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Voice Email Writer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>AI Voice Email Writer</h1>
+
+        <button id="start-recording">🎤 Start Recording</button>
+        <button id="stop-recording" disabled>⏹ Stop Recording</button>
+
+        <h3>Transcription</h3>
+        <textarea id="transcription"></textarea>
+
+        <button id="generate-email">Generate Email</button>
+
+        <h3>Email Preview</h3>
+        <textarea id="email-content"></textarea>
+
+        <h3>Recipient Email</h3>
+        <input
+            type="email"
+            id="recipient-email"
+            placeholder="example@gmail.com"
+        >
+
+        <button id="send-email">Send Email</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
